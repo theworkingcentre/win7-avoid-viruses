@@ -6,12 +6,50 @@
 Avoiding Viruses and Malware in Windows 7
 =========================================
 
-Contents:
+Getting computer viruses can be a real hassle:
+
+-  They can make your computer slow and cause it to crash.
+-  They can steal your personal information.
+-  They can hold your personal data for ransom.
+-  They can get you in trouble with your Internet Service Provider.
+-  They can be expensive to remove. Computer Recycling charges a minimum
+   of $25 to clean computer viruses. At other computer shops you can
+   easily spend twice that much money.
+-  They can take a lot of time to remove. If you bring your computer to
+   Computer Recycling for virus removal, you could be without your
+   computer for weeks.
+
+It is much better to avoid being infected by a computer virus than to
+clean up after one. This document outlines some easy steps you can take
+to reduce your risk of being infected. The tips are in rough order of
+importance.
+
+Although these tips will reduce your risk of computer viruses, there is
+no way to guarantee that you will avoid them completely. New viruses are
+being invented all the time, and the techniques used to spread viruses
+are becoming more clever. There are additional steps you can take to
+reduce your risks, but in this handout we will cover the ones that are
+both effective and easy to implement.
+
+When we talk about "computer viruses" in this handout, we are actually
+talking about all the kinds of **malware** that can get on your
+computer. Technically some kinds of malware are not viruses, but we
+don't have to worry about that distinction in this handout.
+
+Some of the tips here are specific to the Windows 7 computers we sell at
+Computer Recycling.
+
+You might find some of the advice in this guide confusing or difficult
+to understand. Please contact us at Computer Recycling if you are
+confused so we can help you understand what is going on.
+
+
+Table of Contents
+-----------------
 
 .. toctree::
    :maxdepth: 2
 
-   00-intro
    05-updates
    10-accounts
    15-backups
@@ -21,10 +59,5 @@ Contents:
    35-other
    40-aboutviruses
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
