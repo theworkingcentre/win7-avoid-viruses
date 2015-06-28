@@ -1,0 +1,6 @@
+/* This is a local CSS styling file */
+
+/* Put bullets in sidebar table of contents */
+div.sphinxsidebar h3.localtoc+ul { 
+    list-style: square outside none;
+}
