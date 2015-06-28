@@ -1,4 +1,4 @@
-About This Documentation
+About this documentation
 ------------------------
 
 We hope that you found this guide useful. If you think other people

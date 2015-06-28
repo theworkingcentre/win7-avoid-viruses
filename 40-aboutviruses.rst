@@ -1,4 +1,4 @@
-What are Viruses and Malware?
+What are viruses and malware?
 -----------------------------
 
 Using the term "computer virus" is a little misleading -- there are many

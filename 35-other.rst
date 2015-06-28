@@ -1,4 +1,4 @@
-Other Strategies to Protect Yourself
+Other strategies to protect yourself
 ------------------------------------
 
 In this document we have covered some easy, effective measures to
