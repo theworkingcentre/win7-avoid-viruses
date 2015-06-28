@@ -41,7 +41,7 @@ your computer. Sometimes Internet tutorials recommend turning off UAC
 because it is annoying, but those Internet tutorials are dumb and you
 should not pay attention to them.
 
-Creating Standard Accounts
+Creating standard accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are lucky, you are already using a standard account for daily
