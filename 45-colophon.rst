@@ -4,9 +4,10 @@ About this documentation
 We hope that you found this guide useful. If you think other people
 would benefit from it, you may do so: we have released this
 documentation under a `Creative Commons Attribution-ShareAlike 
-International license <http://creativecommons.org/licenses/by-sa/4.0/>`: 
+International license
+<http://creativecommons.org/licenses/by-sa/4.0/>`_: 
 
-.. figure:: _static/cc-by-sa-4.png
+.. figure:: pix/45-credits/cc-by-sa-4.png
    :align: center
    :alt: Creative Commons BY-SA logo 
 
