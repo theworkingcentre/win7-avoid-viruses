@@ -49,4 +49,19 @@ Why do people create viruses and malware?
 
 Some people create viruses for thrill and recognition. But these days
 malware is often created for profit: individuals and organizations
-looking for information or money by using your computer.
+look for information or money by using your computer. These groups
+might try to profit from your misfortune in some of the following
+ways:
+
+- Holding your files for ransom until you pay them.
+- Taking over your computer and using it as part of a **botnet**
+  network, which can be rented to others for profit.
+- Making your computer slow and/or scaring you into purchasing their
+  software to "speed up your computer".
+- Installing advertising and tracking tools, and then selling
+  advertising space on your computer to others.
+- Using your computer to send spam or host sketchy files.
+- Using your identity to impersonate you and drain your bank account.
+- Collecting information about your passwords and credit card
+  information, which can be later sold online.
+
