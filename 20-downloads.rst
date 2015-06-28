@@ -97,6 +97,8 @@ To update your programs, simply run the installer as administrator
 again. You do not need to go back to the Ninite homepage to re-download
 an installer.
 
+.. _20-downloads-adblock:
+
 Install an ad blocker
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -106,7 +108,8 @@ software to your computer. For this section, we'll use the example of
 downloading a software program from a popular download site. This site
 contains many misleading advertisements intended to trick you into
 downloading things you do not want. (We have documented several other
-examples of misleading downloads [WHERE?])
+examples of misleading downloads in the
+":ref:`20-downloads-mirror-websites`" section )
 
 .. figure:: pix/20-downloads/10-adblock/03-majorgeeks.png
    :align: center
@@ -304,6 +307,9 @@ that can help keep you safe:
    not open the file**. It could very easily contain malware that will
    infect your computer.
 
+
+.. _20-downloads-mirror-websites:
+
 Be careful where you download software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -314,8 +320,9 @@ downloads. These websites show up high in web search results, so it is
 easy to visit them when you are looking for software.
 
 Many mirror websites use ads that try to mislead you into clicking links
-for things you do not want. In the section **Install an Ad-blocker**
-[CHECK] above we saw one example of this. Here is another:
+for things you do not want. In the section
+":ref:`20-downloads-adblock`"
+above we saw one example of this. Here is another:
 
 .. figure:: pix/20-downloads/25-mirrorsites/10-download-cnet.png
    :align: center
