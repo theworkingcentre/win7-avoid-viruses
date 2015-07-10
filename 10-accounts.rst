@@ -42,7 +42,7 @@ because it is annoying, but those Internet tutorials are dumb and you
 should not pay attention to them.
 
 Create standard accounts
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are lucky, you are already using a standard account for daily
 use. If not, you can create an administrative account and then make your
@@ -158,3 +158,14 @@ You will see a slider with four settings. Make sure the slider is set to
    :align: center
    :alt: UAC slider: choose "Always Notify"
 
+Create separate accounts for each user
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You may want to use the instructions above to create
+separate, non-administrative accounts for each person who uses your
+computer. In addition to giving each user of your computer more
+privacy, this can limit the damage created if one person's account
+gets a virus: if regular user accounts are restricted, then it is
+likely (although not guaranteed) that only the account that was
+infected will be affected. This makes it easier to clean the viruses
+from the computer as a whole.
