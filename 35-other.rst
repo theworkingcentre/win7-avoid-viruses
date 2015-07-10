@@ -6,7 +6,7 @@ protect yourself from viruses and other malware. There are lots of other
 things you can do, but often they take more patience and learning. In
 this section we will briefly mention some of them. If you are interested
 in pursuing them further, you can speak to the volunteers at Computer
-Recycling. [CHECK]
+Recycling. 
 
 Restrict Javascript
 ~~~~~~~~~~~~~~~~~~~
