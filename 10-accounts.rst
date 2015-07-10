@@ -169,3 +169,7 @@ gets a virus: if regular user accounts are restricted, then it is
 likely (although not guaranteed) that only the account that was
 infected will be affected. This makes it easier to clean the viruses
 from the computer as a whole.
+
+You can apply this principle even if you are the only user of your
+computer. You might create separate accounts for work-related tasks
+and for playing games, for example.
