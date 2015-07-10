@@ -21,6 +21,9 @@ plugins.
 In this section we will cover some good practices for avoiding these
 nasties.
 
+
+.. _20-downloads-ninite:
+
 Use Ninite for common downloads
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -214,10 +217,7 @@ from the email your receive, but infected attachments are still common.
 
 Here are some rules of thumb to follow:
 
-If you are not expecting an attachment, then do not open it. For
-example, the following email from a stranger is suspect:
-
-[SCREENSHOT]
+If you are not expecting an attachment, then do not open it. 
 
 Even if you get an email from a friend or relative you might be in
 trouble. Be particularly wary if the email has strange wording or does
@@ -229,10 +229,7 @@ emails to everybody in their contact list:
 [SCREENSHOT]
 
 You should almost never open attachments that have two filename
-extensions, such as .zip.exe :
-
-[SCREENSHOT]
-
+extensions, such as .zip.exe .
 Such attachments are named to confuse you, and very often contain
 viruses.
 
@@ -310,6 +307,37 @@ that can help keep you safe:
 
 .. _20-downloads-mirror-websites:
 
+Be careful about links in social media
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sometimes the social media accounts of your friends or family get
+hacked. Then spammers use those accounts to send out status updates
+containing suspicious links. When you click on those links, you are
+taken to websites that try to break into your own social media account
+(thus propagating the chain of breakins) or download other malware to
+your computer. 
+
+Because most social media websites use link-shortening tools, it can
+be tricky to tell which links are legitimate and which are scams. Here
+are a few rules of thumb: 
+
+-  If one of your friends sends out a lot of links that seem
+   uncharacteristic of that person (in terms of spelling, grammar, or tone) 
+   then be wary.
+-  If the links seem very generic ("Here is a great thing! I was so
+   surprised!") then maybe they are suspicious. 
+-  If somebody who does not post much suddenly starts posting a great
+   deal, then be suspicious.
+-  If you click a link and are taken to a website that seems very
+   different from the blurb on the social media update, then you might
+   be in trouble. Close your browser immediately.
+
+Unfortunately this advice is not sufficient to stop all damage from
+social media hacking, and it is becoming more and more difficult to
+distinguish legitimate social media updates from spam and scams. Using
+an antivirus product in conjunction with good judgement might be
+helpful. 
+
 Be careful where you download software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -385,6 +413,71 @@ Once in a while you cannot find legitimate downloads on official sites.
 In this case you may want to seek help. People at Computer Recycling can
 help you locate legitimate downloads, or you may have a friend who is
 both knowledgable about computers and whose judgement you trust.
+
+Be careful about downloading games
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Games websites are especially prone to spreading malware. As always,
+misleading websites offering "free games" can be suspect. 
+
+If you (or your children!) are interested in getting games software,
+some options are safer than others.
+
+
+Access the Computer Recycling library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Computer Recycling has put together a library of games which we
+believe to be malware-free. Many of these games are open source ones.
+Please contact Computer Recycling to access this library of games. We
+can put some installers on a USB key for you, or burn you a DVD of
+them. 
+
+Many of these games are less sophisticated than commercial videogames,
+but lots of them are still fun to play.
+
+
+Be careful about Flash games
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Many games use the Adobe Flashplayer plugin to run. Some game sites
+are sketchy and some are less so. If you choose to play Flash-based
+games then you should make sure that your copy of Flash Player is up
+to date (Adobe releases updates for Flash player frequently). 
+
+If you would like suggestions for safer Flash sites to use, please
+contact Computer Recycling. 
+
+
+Use the Steam service
+^^^^^^^^^^^^^^^^^^^^^
+
+There is a games service called Steam (http://store.steampowered.com)
+which is popular with gamers.  Steam tends to sell commercial games
+for money, but some games are free to play, and you are not obligated
+to enter credit card information in order to create an account. You
+can install the Steam client with Ninite: 
+
+.. figure:: pix/20-downloads/27-games/10-steam-ninite.png
+   :align: center
+   :alt: Steam is available on Ninite 
+
+See the section on using Ninite for more information:
+:ref:`20-downloads-ninite`
+
+As far as we know, downloads on Steam are free of malware. 
+You have to be careful when using Steam, however: 
+
+-  Many of the games cost money, so you want to make sure you are only
+   paying for products you want.
+-  Even some of the games listed as "Free to Play" allow "in-app
+   purchases", which means that the games encourage people to purchase
+   items inside the game.
+-  The games on Steam tend to be better suited for higher-end
+   computers. 
+
+
+
 
 Avoid toolbars
 ~~~~~~~~~~~~~~
