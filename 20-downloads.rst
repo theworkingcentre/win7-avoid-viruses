@@ -449,8 +449,8 @@ If you would like suggestions for safer Flash sites to use, please
 contact Computer Recycling. 
 
 
-Use the Steam service
-^^^^^^^^^^^^^^^^^^^^^
+Consider the Steam service
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is a games service called Steam (http://store.steampowered.com)
 which is popular with gamers.  Steam tends to sell commercial games
