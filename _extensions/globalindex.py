@@ -17,6 +17,7 @@ from sphinx.util.compat import Directive
 from sphinx.builders.html import SingleFileHTMLBuilder
 from docutils import nodes
 from docutils.parsers.rst import directives
+import re
 
 class globalindex(nodes.General, nodes.Element):
     pass
@@ -56,6 +57,9 @@ def process_globalindex_nodes(app, doctree, fromdocname):
                           collapse=node['collapse'],
                           titles_only=node['titlesonly'])
             rendered_toctree = builder._get_local_toctree(docname, **kwargs)
+            # From:
+            # http://e-mats.org/2013/12/making-multi-level-anchors-work-with-globalindex-py-for-sphinx/
+            rendered_toctree = re.sub(r'(#[^ "]+)#', '#', rendered_toctree);
             node['content'] = rendered_toctree
 
 def setup(app):
