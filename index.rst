@@ -44,12 +44,9 @@ to understand. Please contact us at Computer Recycling if you are
 confused so we can help you understand what is going on.
 
 
-Table of Contents
------------------
-
 .. toctree::
-   :maxdepth: 2
 
+   self
    05-updates
    10-accounts
    15-backups
