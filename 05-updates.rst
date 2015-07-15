@@ -26,7 +26,7 @@ Microsoft Updates for Windows and Office
 
 Microsoft releases security updates for its products using **Microsoft
 Update**. If you purchase a Windows computer from Computer Recycling
-then this should be set up already [CHECK], but you can confirm this for
+then this should be set up already, but you can confirm this for
 yourself easily.
 
 Press the Start button in the lower-left corner of your screen and
