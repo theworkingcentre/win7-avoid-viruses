@@ -1,3 +1,6 @@
+
+.. globalindex::
+
 Use Windows Update and Ninite
 -----------------------------
 

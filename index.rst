@@ -57,5 +57,5 @@ confused so we can help you understand what is going on.
    40-aboutviruses
    45-credits
 
-
-
+.. globalindex::
+   :maxdepth: 4
