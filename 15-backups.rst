@@ -8,14 +8,14 @@ Having good backups prevents you from losing everything.
 
 We will look at three different kinds of backups in this document:
 
--  System Restore and previous versions, which backs up recently changed
+-  **System Restore** and **Previous Versions**, which backs up recently changed
    files. This is easy to configure, costs no additional money, and
    makes it easy to recover older versions of your files. However,
    System Restore will not protect you against disasters like lightning
    strikes or your hard drive dying, and typically System Restore will
    not back up everything long term.
 
--  Windows Backup, which can put backups on a USB flash drive, a second
+-  **Windows Backup**, which can put backups on a USB flash drive, a second
    hard drive on your computer, or a remote location. This takes a
    little work to configure, but once set up it will back up your files
    regularly. This system costs a little money because you have to
@@ -24,12 +24,13 @@ We will look at three different kinds of backups in this document:
    vulnerable to lightning strikes or computer theft.
 
 -  Remote backups, which put your backups on a hard drive far away.
-   There are many remote backup solutions, but we will look at a service
-   called Mozy, which is pretty easy to configure. Remote backups can
-   protect you against computer theft and lightning strikes, but they
-   have disadvantages as well: they will use up bandwidth on your
-   internet connection, and you have to trust the remote location where
-   your backups are being stored, because transferring your personal
+   There are many remote backup solutions, but we will look at a
+   service called **MozyHome**, which is free for personal use and
+   reasonably easy to configure. Remote backups can protect you against
+   computer theft and lightning strikes, but they have disadvantages
+   of their own: remote backups use up bandwidth on your internet
+   connection. In addition, you have to trust the remote location
+   where your backups are being stored: transferring your personal
    files over the internet makes it easier for others to see their
    content.
 
@@ -160,7 +161,9 @@ case we are making a "test restore" folder:
 If you navigate to that folder you should see the old version of your
 file.
 
-[SCREENSHOTS?]
+.. figure:: pix/15-backups/05-sysrestore/30-notepad01.png
+   :align: center
+   :alt: The original document has been restored (to a different filename). 
 
 Enable local backups to a USB flash drive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -304,7 +307,8 @@ this, visit https://mozy.com/free :
 
 Note that Mozy will make it difficult to create a free account unless
 you use the https://mozy.com/free page. Clicking the "Sign up" link will
-direct you to create a paid account.
+direct you to create a paid account, so don't do that. Instead, click
+"Get Started".
 
 You are first prompted to enter your country of residence:
 
@@ -325,9 +329,9 @@ You should then see a prompt to check your email:
    :alt: Check your email
 
 When you do so, you should see an activation link from Mozy. Often you
-want to be careful about clicking links in email (see the **Be careful
-about links in email** section below) but in this case you are expecting
-a registration email:
+want to be careful about clicking links in email (see the
+":ref:`20-downloads-email-links`" section below) but in this case you are 
+expecting a registration email:
 
 .. figure:: pix/15-backups/20-mozy/12-confirm-link.png
    :align: center
@@ -350,7 +354,7 @@ instead:
    :alt: Install Mozy via Ninite
 
 For more detailed instructions on using Ninite to install software, see
-the **Use Ninite to install common software** section below.
+the :ref:`20-downloads-ninite` section.
 
 Once you have installed the software, it is time to set up a backup. Log
 in with the email account and password you created:
@@ -404,7 +408,8 @@ You will have the option to save your personal key (password) to a file.
    :alt: Save Key
 
 It might be a good idea to store this key on a secure USB flash drive or
-in a password manager like KeepPass.
+in a password manager like KeepPass (See :ref:`35-other-keeppass` for
+more information.)
 
 Next Mozy will tell you that setup is complete, but you may want to
 click the Settings button to change what is being backed up:
@@ -462,16 +467,16 @@ Mozy will keep up to thirty days worth of changes to your files, so if
 you accidentally delete a file (or it is infected with a virus like
 Cryptolocker) then you can restore it.
 
-.. figure:: pix/15-backups/20-mozy/57-restore-dialog.png
-   :align: center
-   :alt: Mozy restore files
-
 You probably do not want to overwrite your old files. Restore your files
 to a different location, and then get rid of the damaged files once you
 are sure the restored ones are adequate.
 
 Choose the files you want to restore, select "Rename file if file
 exists", and then choose to "Restore Files"
+
+.. figure:: pix/15-backups/20-mozy/57-restore-dialog.png
+   :align: center
+   :alt: Mozy restore files
 
 For more information on using Mozy, use the help option in the program:
 

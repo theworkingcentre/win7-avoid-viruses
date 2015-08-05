@@ -18,10 +18,10 @@ available locally:
 -  Volunteers at Computer Recycling can help answer some of your
    questions.
 -  There are computer support volunteers in the public labs of The
-   Working Centre who can help answer some questions as well.
+   Working Centre who can also help answer questions.
 
 In addition, you might find some friends or family members who can help
-you. This can be difficult, however, because people who are very
+you. However, keep in mind that people who are very
 knowledgable about computers do not always want to help you, and many
 people who think they know a lot about computers actually don't. If you
 are considering finding a computer buddy among your friends and family,
@@ -41,8 +41,8 @@ ask the following questions:
 
 If you find a trustworthy computer buddy, you are very fortunate, and
 you should be careful not to abuse this relationship by being overly
-demanding. Asking these people for advice is usually quick; asking them
-to fix your computer repeatedly often takes a lot of their time, and you
-should not expect them to do this (especially if they are helping you
-for free).
+demanding. Asking these people for advice is usually quick; asking
+them to fix your computer often takes a lot of their time, and you
+should not expect them to do this regularly (especially if they are
+helping you for free).
 

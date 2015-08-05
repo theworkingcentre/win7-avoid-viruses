@@ -6,6 +6,9 @@
 Avoiding Viruses and Malware in Windows 7
 =========================================
 
+
+
+
 Getting computer viruses can be a real hassle:
 
 -  They can make your computer slow and cause it to crash.
@@ -19,17 +22,26 @@ Getting computer viruses can be a real hassle:
    Computer Recycling for virus removal, you could be without your
    computer for weeks.
 
+
+.. figure:: pix/00-intro/10-malware-screenshots.png
+   :align: center
+   :alt: Screen with three malware programs (all fake antiviruses).
+
+The above computer was infected by three different fake antivirus
+programs. It took hours to clean them all off. 
+You don't want to end up in this situation!
+
 It is much better to avoid being infected by a computer virus than to
 clean up after one. This document outlines some easy steps you can take
 to reduce your risk of being infected. The tips are in rough order of
-importance.
+importance. We will focus on tips that are both effective and easy to
+implement. 
 
 Although these tips will reduce your risk of computer viruses, there is
 no way to guarantee that you will avoid them completely. New viruses are
 being invented all the time, and the techniques used to spread viruses
-are becoming more clever. There are additional steps you can take to
-reduce your risks, but in this handout we will cover the ones that are
-both effective and easy to implement.
+are becoming more clever. However, the tips in this document will help
+protect you against some of the more common threats. 
 
 When we talk about "computer viruses" in this handout, we are actually
 talking about all the kinds of **malware** that can get on your

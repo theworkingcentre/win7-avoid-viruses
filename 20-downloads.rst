@@ -1,12 +1,16 @@
 Be careful about downloads
 --------------------------
 
-One of the most common ways viruses get on your computer is through
-surfing the web and downloading programs.
+Some of the most common ways viruses get on computers are via web
+surfing and downloaded programs. In this section we will look at some
+of these infection mechanisms and how you can protect yourself from
+them. 
 
 Note that the advice in this section build upon previous sections. Using
-out of date software and using administrator accounts for daily tasks
+out of date software or using administrator accounts for daily tasks
 makes it easier for viruses to download themselves onto your computer.
+Make sure you have implemented the steps in the previous sections
+first. 
 
 There are a lot of sketchy, misleading software sites on the Internet.
 Some of them are outright scams: the software they offer comes preloaded
@@ -14,8 +18,8 @@ with viruses and other malware. Other sites make money by posting
 misleading advertisements intended to make you download stuff you really
 don't want on your computer.
 
-Even legitimate software products like Oracle (which makes Java) and
-Adobe (which make Flash player) bundle nasty toolbars with their
+Even legitimate software companies such as Oracle (which makes Java) and
+Adobe (which makes Flash player) bundle questionable programs with their
 plugins.
 
 In this section we will cover some good practices for avoiding these
@@ -28,7 +32,7 @@ Use Ninite for common downloads
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One of the best resources for installing clean software is Ninite.
-Previously we discussed re-running Ninite installers to keep your
+In the section :ref:`10-updates-ninite` we discussed re-running Ninite installers to keep your
 existing software up to date, but you can also use Ninite to install new
 software. Ninite does not include every piece of software you might ever
 want to download, but it does include a selection of the most popular
@@ -110,16 +114,14 @@ your screen, or click a misleading advertisement that downloads unwanted
 software to your computer. For this section, we'll use the example of
 downloading a software program from a popular download site. This site
 contains many misleading advertisements intended to trick you into
-downloading things you do not want. (We have documented several other
-examples of misleading downloads in the
-":ref:`20-downloads-mirror-websites`" section )
+downloading things you do not want. 
 
 .. figure:: pix/20-downloads/10-adblock/03-majorgeeks.png
    :align: center
    :alt: Misleading advertisements
 
 If you use an ad-blocking plugin for your web browser, many of these
-malicious advertisements will not show up, making your website safer. We
+malicious advertisements will not show up, making your web surfing. We
 will demonstrate how to install the ad blocker AdBlockPlus for Firefox.
 
 To start, run Firefox and navigate to Ad-Ons:
@@ -135,9 +137,8 @@ In the search bar, type "AdBlock Plus"
    :alt: Search for Adblock Plus
 
 Choose the AdBlock Plus plugin and choose to install it. Be careful that
-you choose the right product -- as you can see there are many different
-adblock plugins. Most of them are probably okay, but there may be some
-that are themselves malicious.
+you choose the right product: as you can see there are many different
+adblock plugins. Some of them are okay, but others might be malicious.
 
 Once you have chosen to install the plugin, Firefox should then indicate
 that the plugin is installed.
@@ -167,12 +168,12 @@ continue to display "non-obtrusive" ads:
    :align: center
    :alt: Supposedly unobtrusive advertisement
 
-This brings up an important ethical issue about ad-blocking software.
-Using an ad blocker is a good practice to avoid scary popups and
-inadvertant downloads. However, many internet sites get much of their
-revenue by displaying advertisements, and when you use an ad blocker you
-deprive those websites of their revenue stream. That means those
-websites could go out of business, depriving you of future content.
+This brings up an important ethical issue.  Using an ad blocker is a
+good practice to avoid scary popups and inadvertent downloads.
+However, many internet sites earn revenue by displaying
+advertisements, and when you use an ad blocker you deprive those
+websites of their revenue stream. That means those websites could go
+out of business, in turn depriving you of future content.
 
 Thus, it might be advisable to allow websites that you like and trust to
 display advertisements to you. To do this, you "whitelist" the website.
@@ -199,45 +200,65 @@ If you allow ads on trustworthy websites you enjoy, then it is less
 likely that those websites will go out of business.
 
 Unfortunately ethical issues around ad-blocking get even more
-complicated ethically. Advertisements on the Internet are also tracking
-mechanisms: they track where you go and what you do on the Internet.
-Some people are okay with this. Other feel it is intrusive, and so use
-ad blockers to block as many ads as they can. As if that is not enough,
-there is not guarantee that the ad-blocking software itself is
-trustworthy! There are no easy answers to this quandry; you will have to
-decide your own values and comfort level and act accordingly.
+complicated. Most advertisements on the Internet 
+track where you go and what you do while you are sufring the internet.
+Some people are okay with this. Other people feel it is intrusive, and so use
+ad blockers to block as many ads as they can. 
+
+In addition, 
+there is no guarantee that the ad-blocking software itself is
+trustworthy! There are no easy answers to this quandry. You will have
+to decide what ethical tradeoffs are right for you.
+
 
 Be careful about email attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Another common way for viruses to get on your computer is if you
-mistakenly open an email attachment that contains a virus. Email
-providers are getting better about screening out virus-laden attachments
-from the email your receive, but infected attachments are still common.
+Another common way viruses get on computers is by people opening
+malicious email attachments.  Email providers are getting better about
+screening out such attachments, but they are not perfect, and some 
+virus-laden attachments still get through. 
 
 Here are some rules of thumb to follow:
 
 If you are not expecting an attachment, then do not open it. 
+
+You should almost never open attachments that have two filename
+extensions, such as .zip.exe .  Such attachments are named to confuse
+you, and very often contain viruses.
 
 Even if you get an email from a friend or relative you might be in
 trouble. Be particularly wary if the email has strange wording or does
 not sound as if it came from the recipient in question, or if the email
 is asking you for money. In such situations the email account of your
 friend or relative may have been hacked, and is sending out virus-laden
-emails to everybody in their contact list:
+emails to everybody in their contact list. Here is a recent example: 
 
-[SCREENSHOT]
+    Subject: Unhappy Predicament......................(Victim Name)
+ 
+    HELLO,
 
-You should almost never open attachments that have two filename
-extensions, such as .zip.exe .
-Such attachments are named to confuse you, and very often contain
-viruses.
+    Sorry to bother you with this, I took a urgent visit to Ukraine to see my sick cousin who is suffering from a critical Uterine fibroid and must undergo a hysterectomy surgery to save her life. The news of her illness arrived to me as an emergency, she's going through a lot of pain at the moment and she needs family support to keep her going.
+
+    The doctors have advised that it is necessary that the tumor is operated soon to avoid any complications. I hope you understand my plight and pardon me.The estimate for the Hysterectomy surgery is $9,000 USD. I have already spent approx. $6,200 USD cash towards her treatment so am wondering if you can assist me with a loan of $2,800 USD to make the necessary arrangement for the surgery to be carried out. Your help and support will give her a chance to live a normal life once again. I will surely pay you back as soon as I return. I will appreciate whatever you can help me with. Kindly let me know if you can be of help so I can send you my Money Gram details since I cannot operate my bank account from here.
+
+    Sincerely (Victim Name)
+
+
+These kinds of emails can be misleading, especially when they come
+from somebody you know but do not correspond with regularly. 
+
+
 
 If you are unsure about whether a particular attachment is safe to open
 or not, you should contact the sender in question -- preferably over the
-phone or an instant messenger program, not email! Many antivirus
-programs will also attempt to scan the attachment for viruses, but this
-is not always foolproof.
+phone or an instant messenger program, not email! You can also contact
+other friends or relatives of the person in question to see if they
+have noticed anything amiss. 
+
+
+
+.. _20-downloads-email-links:
 
 Be careful about links in email
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -250,11 +271,13 @@ for you to click. Here is an example:
    :align: center
    :alt: Fake Paypal Email
 
-There are many clues that suggest this email is fake: - misspelled words
-- pressure tactics to get you to click the link - an address of
-"hostme@interac.com" instead of an address from paypal.com - the
-destination of the link going to a different web URL (you can see this
-by hovering over the "Confirm My Address" link)
+There are many clues that suggest this email is fake: 
+
+- misspelled words
+- pressure tactics to get you to click the link 
+- an address of "hostme\@interac.com" instead of an address from paypal.com 
+- the destination of the link going to a different web URL (you can see this
+  by hovering over the "Confirm My Address" link)
 
 Even if you do not catch any of these clues, you still should not click
 links in emails you do not expect. If you are worried that the warnings
@@ -305,7 +328,6 @@ that can help keep you safe:
    infect your computer.
 
 
-.. _20-downloads-mirror-websites:
 
 Be careful about links in social media
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -337,6 +359,8 @@ social media hacking, and it is becoming more and more difficult to
 distinguish legitimate social media updates from spam and scams. Using
 an antivirus product in conjunction with good judgement might be
 helpful. 
+
+.. _20-downloads-mirror-websites:
 
 Be careful where you download software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -511,7 +535,7 @@ As a general rule, this is a bad idea! Often the people who are making
 illegal software available for download have ulterior motives. Many of
 them want to make money, and one way to do so is by including viruses
 along with the illegal downloads. People who have no moral compunctions
-about redistributing other company's software often have no moral
+about redistributing other people's software often have no moral
 compunctions about infecting your computer with viruses either.
 
 Often there are free and legal alternatives to the software you are

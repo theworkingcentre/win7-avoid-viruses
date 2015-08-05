@@ -10,6 +10,9 @@ antiviruses are a last defense.
 
 There are lots of antivirus products on the market. Some of them are
 free for home users, and others cost money. They do vary in quality.
+If you are looking to purchase an antivirus product, then you might
+want to talk with the volunteers at Computer Recycling to get some
+recommendations. 
 
 If you are looking for a free antivirus, Microsoft Security Essentials
 is a reasonable choice. It is available from Ninite, is legal for home

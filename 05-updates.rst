@@ -6,7 +6,7 @@ Use Windows Update and Ninite
 Software manufacturers update their programs all the time. Some of these
 updates add features, but others are **security updates** released to
 fix problems with the programs. People who write computer viruses
-**exploit** these problems to spread their malware. Sometimes these
+exploit these problems to spread their malware. Sometimes these
 problems are so serious that simply visiting a malicious website can
 infect your computer behind your back! So it is important to keep up
 with security updates.
@@ -16,7 +16,7 @@ There are two kinds of security updates you should keep up with:
 -  Security updates for Windows and Microsoft Office, which are released
    by Microsoft
 -  Security updates for non-Microsoft software, such as Adobe Reader,
-   Mozilla Firefox, or antivirus software.
+   Mozilla Firefox, or antivirus programs. 
 
 Let's look at each of these in turn.
 
@@ -43,11 +43,13 @@ updating on or off":
    :alt: Turn automatic updating on or off
 
 In the "Important updates" dropdown, choose "Download updates but let me
-choose whether to install them". (If you leave your computer on all the
+choose whether to install them". 
+
+If you leave your computer on all the
 time you can choose "Install updates automatically". There are
 situations in which other options are appropriate, but you probably
 should not choose them. If in doubt, choose "Download updates but let me
-choose whether to install them.")
+choose whether to install them."
 
 .. figure:: pix/05-updates/00-win/10-download-update-option.png
    :align: center
@@ -94,25 +96,29 @@ are any updates available. You can then install the updates if you wish.
    :align: center
    :alt: Updates are available
 
+
+.. _10-updates-ninite:
+
 Non-Microsoft updates with Ninite
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It can be even more important to keep up with non-Microsoft updates than
 Microsoft ones, but in the past this was quite a hassle. You had to
 visit many different websites for your software, download updated
-versions of your programs, and avoid inadvertantly installing toolbars
+versions of your programs, and avoid inadvertently installing toolbars
 and other junk that was bundled with the program.
 
 Fortunately, things are easier now, for two reasons:
 
 -  Some software (such as Adobe Flash Player, Google Chrome, and Mozilla
    Firefox) attempts to keep itself updated.
--  There is a software service called `Ninite <http://ninite.com>`_,
-   which we at Computer Recycling highly recommend, and which is free
-   (and legal!) for home users. We are so enthusiastic about Ninite that
-   much of this handout might read like an advertisement for their
-   service, but they are not paying us to promote them.
 
+-  There is a software service called `Ninite <http://ninite.com>`_,
+   which is free (and legal!) for home users. Many download services
+   are sketchy (see :ref:`20-downloads-mirror-websites` for more
+   information about this), but as of this writing we enthusiastically
+   recommend Ninite.
+   
 There is not much you need to do to take care of programs that update
 themselves, so long as those programs are trustworthy. Using Ninite is
 also not difficult, but there are a few steps involved.
@@ -150,8 +156,8 @@ The only downside to this is that some software updates (in particular
 LibreOffice) are large and can use a lot of bandwidth.
 
 If your computer does not have a Ninite installer you can create one by
-visiting https://ninite.com and creating one. See the [Downloads] [NEED
-LINK] section for detailed instructions on doing this.
+visiting https://ninite.com and creating one. See the
+:ref:`20-downloads-ninite` section for detailed instructions on doing this.
 
 The home version of Ninite does not run by itself, so you should go
 through this process at least once a month to keep your software update.

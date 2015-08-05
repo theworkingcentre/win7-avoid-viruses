@@ -4,20 +4,22 @@ Use standard accounts for daily use
 
 There are different kinds of accounts in Windows. **Standard accounts**
 allow you to carry out day-to-day computing tasks (such as surfing the
-internet, writing documents, playing music and video) without being able
-to do administrative things that affect the entire computer (such as
-installing or removing programs). This is important from a virus
-perspective because it means viruses cannot be installed system-wide
-behind your back. Using a standard account for daily computer reduces
-the risk that a virus will infect your entire system.
+internet, writing documents, playing music and video). 
 
 The alternative to standard accounts are **administrative accounts**,
 which can be used to install programs (including viruses, if you are not
 careful).
 
+Using standard accounts is important from a virus
+perspective because it means viruses cannot be installed system-wide
+behind your back. Using a standard account for daily computer reduces
+the risk that a virus will infect your entire system.
+
 We recommend having at least two accounts on your computer. One should
 be a standard account that you use regularly. Another should be an
 administrative account that you use for administrative tasks.
+If many different people use your computer, they can each have
+standard accounts of their own.
 
 In Windows 7, administrative tasks are indicated with the following blue
 and yellow shield:
@@ -84,9 +86,9 @@ password.
    :align: center
    :alt: Charlesadmin does not have a password
 
-You will need to set a password for this account (which can be the same
+You will need to set a password for this account. This can be the same
 as the password you already use, or something different. Different is
-better if you can remember the new password.). Click on the account, and
+better if you can remember the new password. Click on the account, and
 then select "Create a password".
 
 .. figure:: pix/10-accounts/05-standard/20-password-link.png

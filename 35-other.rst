@@ -40,6 +40,8 @@ locations, you should choose "Public".
    :align: center
    :alt: Set Network Location
 
+.. _35-other-keeppass:
+
 Use a password manager
 ~~~~~~~~~~~~~~~~~~~~~~
 
