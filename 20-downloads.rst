@@ -247,6 +247,9 @@ emails to everybody in their contact list. Here is a recent example:
 
 These kinds of emails can be misleading, especially when they come
 from somebody you know but do not correspond with regularly. 
+This particular email did not come with an attachment (it was trying
+to obtain money directly, rather than by installing a virus) but
+similar messages often contain bad attachments.
 
 
 
