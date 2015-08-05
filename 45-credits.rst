@@ -33,7 +33,7 @@ under this Creative Commons license, please visit http://creativecommons.org
 
 Sometimes we change this document and improve it. 
 You can find the latest version of this documentation here:
-http://cr-handouts.theworkingcentre.org
+http://cr-handouts.dyn.theworkingcentre.org
 
 If you would like to modify this documentation you can find the
 sources here: 
