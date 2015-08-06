@@ -1,3 +1,5 @@
+.. _20-downloads:
+
 Be careful about downloads
 --------------------------
 
@@ -211,6 +213,8 @@ trustworthy! There are no easy answers to this quandry. You will have
 to decide what ethical tradeoffs are right for you.
 
 
+.. _20-downloads-email-attachments:
+
 Be careful about email attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -329,7 +333,6 @@ that can help keep you safe:
 -  If you click a link and it downloads a file to your computer, **do
    not open the file**. It could very easily contain malware that will
    infect your computer.
-
 
 
 Be careful about links in social media

@@ -44,6 +44,20 @@ download and install it:
 This is not a comprehensive list, of course. People devise newer and
 scarier mechanisms for infecting computers all the time.
 
+For more information about how computers get infected with
+malware, see the section :ref:`20-downloads`. 
+
+In addition, the following links contain good explanations of how
+malware commonly infects computers, with graphic examples. However,
+note that the Howtogeek website itself contains misleading
+advertisements, so be careful where you click!
+
+- http://www.howtogeek.com/198622/heres-what-happens-when-you-install-the-top-10-download.com-apps/                           
+
+- http://www.howtogeek.com/189176/why-we-hate-recommending-software-downloads-to-our-readers/
+
+
+
 How can I tell if my computer has a virus or malware?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
