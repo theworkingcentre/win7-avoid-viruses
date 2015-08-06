@@ -22,14 +22,15 @@ documentation:
    teaching a class. 
 -  Distribute your changes to other people. 
 
-There are only two catches: if you redistribute this document (either
+There are two catches: if you redistribute this document (either
 changed or as-is) you must do so under the same Creative Commons
 Attribution-ShareAlike license we used. Secondly, you must give us
 credit for creating this documentation by attributing it to "Computer
 Recycling at The Working Centre". 
 
 If you would like more information about what you can and cannot do
-under this Creative Commons license, please visit http://creativecommons.org
+under this Creative Commons license, please visit
+http://creativecommons.org/licenses/by-sa/4.0/
 
 Sometimes we change this document and improve it. 
 You can find the latest version of this documentation here:
