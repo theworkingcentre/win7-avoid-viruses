@@ -18,10 +18,8 @@ Getting computer viruses can be a real hassle:
 -  They can be expensive to remove. Computer Recycling charges a minimum
    of $25 to clean computer viruses. At other computer shops you can
    easily spend twice that much money.
--  They can take a lot of time to remove. Depending on the complexity
-   of your repair and the number of other repairs in progress, taking
-   your computer to Computer Recycling could leave you without your
-   computer anywhere from a few days to a few weeks. 
+-  They can take a lot of time to remove. Sending your computer off to
+   be cleaned can leave you without a computer for days or weeks.
 
 
 .. figure:: pix/00-intro/10-malware-screenshots.png
