@@ -40,6 +40,13 @@ locations, you should choose "Public".
    :align: center
    :alt: Set Network Location
 
+
+You should also be careful about what activities you conduct over
+public wireless networks. In general, it is possible for others to
+snoop on your web surfing when you are using public wireless
+connections. 
+
+
 .. _35-other-keeppass:
 
 Use a password manager
