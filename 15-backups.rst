@@ -23,9 +23,9 @@ We will look at three different kinds of backups in this document:
    against viruses and your primary hard drive dying, but are still
    vulnerable to lightning strikes or computer theft.
 
-3. Remote backups, which put your backups on a hard drive far away.
+3. **Remote backups**, which put your backups on a hard drive far away.
    There are many remote backup solutions, but we will look at a
-   service called **MozyHome**, which is free for personal use and
+   service called MozyHome, which is free for personal use and
    reasonably easy to configure. Remote backups can protect you against
    computer theft and lightning strikes, but they have disadvantages
    of their own: remote backups use up bandwidth on your internet
@@ -36,7 +36,10 @@ We will look at three different kinds of backups in this document:
 
 At the very least, we recommend enabling Previous Versions and Windows
 Backup to a local drive. You can then evaluate whether you feel
-comfortable storing backups to a remote service.
+comfortable storing backups to a remote service. 
+
+You probably do not want to rely on remote backup services alone. Sometimes
+backup companies go out of business.
 
 Your personal files are the most important things to back up, because in
 general you can always re-download and reinstall programs and multimedia
