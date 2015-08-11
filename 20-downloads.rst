@@ -8,9 +8,10 @@ surfing and downloaded programs. In this section we will look at some
 of these infection mechanisms and how you can protect yourself from
 them. 
 
-Note that the advice in this section build upon previous sections. Using
+Note that the advice in this section builds upon previous sections. Using
 out of date software or using administrator accounts for daily tasks
-makes it easier for viruses to download themselves onto your computer.
+makes it easier for bad downloads to infect your computer with
+viruses.
 Make sure you have implemented the steps in the previous sections
 first. 
 
