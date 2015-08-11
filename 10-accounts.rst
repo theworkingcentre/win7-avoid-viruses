@@ -49,10 +49,11 @@ Create standard accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are lucky, you are already using a standard account for daily
-use. If not, you can create an administrative account and then make your
-account standard. This will not protect you against all viruses (they
-can still attack and mess up your personal account) but they won't be
-able to affect your entire computer, which helps a lot.
+use. If not, you can create an administrative account and then make
+your account standard. Using a standard account will not protect you
+against all viruses (which can still attack and mess up your personal
+account files) but at least they won't be able to affect your entire
+computer, which helps a lot.
 
 To check the status of your account, click the Start menu, go to Control
 Panel, and click "Add or Remove User Accounts":
