@@ -8,14 +8,14 @@ Having good backups prevents you from losing everything.
 
 We will look at three different kinds of backups in this document:
 
--  **System Restore** and **Previous Versions**, which backs up recently changed
+1. **System Restore** and **Previous Versions**, which backs up recently changed
    files. This is easy to configure, costs no additional money, and
    makes it easy to recover older versions of your files. However,
    System Restore will not protect you against disasters like lightning
    strikes or your hard drive dying, and typically System Restore will
    not back up everything long term.
 
--  **Windows Backup**, which can put backups on a USB flash drive, a second
+2. **Windows Backup**, which can put backups on a USB flash drive, a second
    hard drive on your computer, or a remote location. This takes a
    little work to configure, but once set up it will back up your files
    regularly. This system costs a little money because you have to
@@ -23,7 +23,7 @@ We will look at three different kinds of backups in this document:
    against viruses and your primary hard drive dying, but are still
    vulnerable to lightning strikes or computer theft.
 
--  Remote backups, which put your backups on a hard drive far away.
+3. Remote backups, which put your backups on a hard drive far away.
    There are many remote backup solutions, but we will look at a
    service called **MozyHome**, which is free for personal use and
    reasonably easy to configure. Remote backups can protect you against
