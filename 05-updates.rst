@@ -55,7 +55,9 @@ choose whether to install them."
    :align: center
    :alt: Selecting download updates but let me choose whether to install them, and selecting recommended updates
 
-Click "OK", and put in the password for an administrator account.
+Click "OK", and put in the password for an administrator account. (For
+more information about administrator accounts, see
+:ref:`10-standard-accounts` .)
 
 .. figure:: pix/05-updates/00-win/15-uac.png
    :align: center

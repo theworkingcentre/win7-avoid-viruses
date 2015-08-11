@@ -1,4 +1,6 @@
 
+.. _10-standard-accounts:
+
 Use standard accounts for daily use
 -----------------------------------
 
