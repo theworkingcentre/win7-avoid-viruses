@@ -528,6 +528,27 @@ favorites or bookmarks to visit websites you care about easily. You can
 also change your preferred search engine easily. Contact Computer
 Recycling if you would like help in doing these things.
 
+Avoid tuneup software and registry cleaners
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Many advertisements on the Internet promise to "speed up your system",
+"repair missing Windows files", "improve PC performance", "clean your
+registry" or do other helpful things on your computers. Most of these
+programs are ineffective, and some are themselves malware. You should
+not download or use any of them, and you should be particularly wary
+of any advertisements or popups that claim your computer is slow or
+has viruses. 
+
+There is one legitimate product we know of which will clean out
+unused temporary files from your computer, but we are reluctant to
+recommend it here. Firstly, it is no longer available on Ninite.
+Secondly, installing the free version can be tricky. Thirdly, many
+malware creators know that this product is legitimate, and try to
+mislead users into thinking that their malware is actually the
+legitimate product. If you are interested in cleaning out temporary
+files, contact Computer Recycling and we can help you out. 
+
+
 Avoid pirated software and key generators
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
