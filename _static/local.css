@@ -1,0 +1,24 @@
+/* This is a local CSS styling file */
+
+/* Put bullets in sidebar table of contents */
+div.sphinxsidebar h3.localtoc+ul { 
+    list-style: square outside none;
+}
+
+/* Make table of contents caption look like an h2 */
+div.table-of-contents span { 
+    font-size: 160%;
+    font-family: "Trebuchet MS",sans-serif;
+    background-color: #F2F2F2;
+    font-weight: normal;
+    color: #20435C;
+    border-bottom: 1px solid #CCC;
+    margin: 20px -20px 10px;
+    padding: 3px 0px 3px 10px;
+} 
+
+/* Make blockquotes a different colour */
+
+blockquote { 
+    color: blue; 
+}
