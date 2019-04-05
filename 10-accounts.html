@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Use standard accounts for daily use &mdash; Avoiding Viruses and Malware in Windows 7</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'2.5',
+              LANGUAGE:'',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: ''
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/local.css" type="text/css" />
+    <link rel="next" title="Do your backups" href="15-backups.html" />
+    <link rel="prev" title="Use Windows Update and Ninite" href="05-updates.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Avoiding Viruses and Spyware in Windows 7
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.5
+              </div>
+            
+          
+
+          
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Avoiding Viruses and Malware in Windows 7</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-updates.html">Use Windows Update and Ninite</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Use standard accounts for daily use</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-standard-accounts">Create standard accounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#keep-uac-enabled">Keep UAC enabled</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-separate-accounts-for-each-user">Create separate accounts for each user</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="15-backups.html">Do your backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="20-downloads.html">Be careful about downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="25-antivirus.html">Keep your antivirus up to date</a></li>
+<li class="toctree-l1"><a class="reference internal" href="30-support.html">Develop a support network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="35-other.html">Other strategies to protect yourself</a></li>
+<li class="toctree-l1"><a class="reference internal" href="40-aboutviruses.html">What are viruses and malware?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="45-credits.html">About this documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Avoiding Viruses and Spyware in Windows 7</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Use standard accounts for daily use</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="use-standard-accounts-for-daily-use">
+<span id="standard-accounts"></span><h1>Use standard accounts for daily use<a class="headerlink" href="#use-standard-accounts-for-daily-use" title="Permalink to this headline">¶</a></h1>
+<p>There are different kinds of accounts in Windows. <strong>Standard accounts</strong>
+allow you to carry out day-to-day computing tasks (such as surfing the
+internet, writing documents, playing music and video).</p>
+<p>The alternative to standard accounts are <strong>administrative accounts</strong>,
+which can be used to install programs (including viruses, if you are not
+careful).</p>
+<p>Using standard accounts is important from a virus
+perspective because it means viruses cannot be installed system-wide
+behind your back. Using a standard account for daily computer reduces
+the risk that a virus will infect your entire system.</p>
+<p>We recommend having at least two accounts on your computer. One should
+be a standard account that you use regularly. Another should be an
+administrative account that you use for administrative tasks.
+If many different people use your computer, they can each have
+standard accounts of their own.</p>
+<p>In Windows 7, administrative tasks are indicated with the following blue
+and yellow shield:</p>
+<div class="figure align-center">
+<img alt="Blue and yellow shield indicating administrative tasks" src="_images/01-admin-tasks.png" />
+</div>
+<p>By default, clicking a task marked with this shield will darken the
+screen and bring up the following prompt:</p>
+<div class="figure align-center">
+<img alt="Administrative prompt" src="_images/03-uac-prompt.png" />
+</div>
+<p>If you are logged in with a standard account, you will be prompted for a
+password to an administrative account. Otherwise, you can click through
+the prompt. The screen is dimmed using a Windows feature called <strong>user
+account control</strong>, or UAC. We highly recommend keeping UAC enabled on
+your computer. Sometimes Internet tutorials recommend turning off UAC
+because it is annoying, but those Internet tutorials are dumb and you
+should not pay attention to them.</p>
+<div class="section" id="create-standard-accounts">
+<h2>Create standard accounts<a class="headerlink" href="#create-standard-accounts" title="Permalink to this headline">¶</a></h2>
+<p>If you are lucky, you are already using a standard account for daily
+use. If not, you can create an administrative account and then make
+your account standard. Using a standard account will not protect you
+against all viruses (which can still attack and mess up your personal
+account files) but at least they won&#8217;t be able to affect your entire
+computer, which helps a lot.</p>
+<p>To check the status of your account, click the Start menu, go to Control
+Panel, and click &#8220;Add or Remove User Accounts&#8221;:</p>
+<div class="figure align-center">
+<img alt="Add or Remove User Accounts link" src="_images/00-accounts-link.png" />
+</div>
+<p>A list of accounts will show up. In this case, the &#8220;Charles&#8221; account is
+the only administrator account.</p>
+<div class="figure align-center">
+<img alt="Charles is an administrator" src="_images/05-charles-is-admin.png" />
+</div>
+<p>This is bad! Let&#8217;s fix it by creating another account called
+&#8220;CharlesAdmin&#8221; and make that an administrator account. Start by clicking
+&#8220;Create a new account&#8221;:</p>
+<p>Choose a name for the new account. We will call ours &#8220;CharlesAdmin&#8221;, but
+you can name it something else (but not &#8220;Administrator&#8221;, because that is
+a reserved account in Windows). Make the type of account
+&#8220;Administrator&#8221;, then click &#8220;Create Account&#8221;.</p>
+<div class="figure align-center">
+<img alt="Create Charlesadmin and make administrator" src="_images/10-make-admin.png" />
+</div>
+<p>Now you will see your new account created, but it does not have a
+password.</p>
+<div class="figure align-center">
+<img alt="Charlesadmin does not have a password" src="_images/15-needs-password.png" />
+</div>
+<p>You will need to set a password for this account. This can be the same
+as the password you already use, or something different. Different is
+better if you can remember the new password. Click on the account, and
+then select &#8220;Create a password&#8221;.</p>
+<div class="figure align-center">
+<img alt="Create a password link" src="_images/20-password-link.png" />
+</div>
+<p>Enter the password twice, and do not enter a password hint.</p>
+<div class="figure align-center">
+<img alt="Change Charlesadmin password" src="_images/25-set-password.png" />
+</div>
+<p>Now the admin account should have a password:</p>
+<div class="figure align-center">
+<img alt="Charlesadmin has a password" src="_images/30-has-password.png" />
+</div>
+<p>Next, remove the administrator permissions from your daily-use account.
+Click &#8220;Manage another account&#8221;.</p>
+<div class="figure align-center">
+<img alt="Manage another account" src="_images/35-manage-another.png" />
+</div>
+<p>Then choose your old account:</p>
+<div class="figure align-center">
+<img alt="Change Charles account" src="_images/40-remove-admin.png" />
+</div>
+<p>Click &#8220;Change the account type&#8221;:</p>
+<div class="figure align-center">
+<img alt="Change account type link" src="_images/45-change-account-type.png" />
+</div>
+<p>Next, make the account a &#8220;Standard user&#8221;:</p>
+<div class="figure align-center">
+<img alt="Make Charles a standard account" src="_images/50-make-standard.png" />
+</div>
+<p>Then click &#8220;Change Account Type&#8221;, and you are done.</p>
+<div class="figure align-center">
+<img alt="Charles is a standard user" src="_images/55-confirm-standard.png" />
+</div>
+<p>Changes will take effect once you log out and log back into your
+computer.</p>
+</div>
+<div class="section" id="keep-uac-enabled">
+<h2>Keep UAC enabled<a class="headerlink" href="#keep-uac-enabled" title="Permalink to this headline">¶</a></h2>
+<p>You will want to make sure that User Account Control is enabled properly
+on your computer. To do this, click the Start Button, go to Control
+Panel, and search for &#8220;UAC&#8221;, then select &#8220;Change User Account Control
+Settings&#8221;:</p>
+<div class="figure align-center">
+<img alt="Change User Account Control settings link" src="_images/05-uac-controlpanel.png" />
+</div>
+<p>You will see a slider with four settings. Make sure the slider is set to
+&#8220;Always Notify&#8221;. Click OK and you are done.</p>
+<div class="figure align-center">
+<img alt="UAC slider: choose &quot;Always Notify&quot;" src="_images/10-uac-slider.png" />
+</div>
+</div>
+<div class="section" id="create-separate-accounts-for-each-user">
+<h2>Create separate accounts for each user<a class="headerlink" href="#create-separate-accounts-for-each-user" title="Permalink to this headline">¶</a></h2>
+<p>You may want to use the instructions above to create
+separate, non-administrative accounts for each person who uses your
+computer. In addition to giving each user of your computer more
+privacy, this can limit the damage created if one person&#8217;s account
+gets a virus: if regular user accounts are restricted, then it is
+likely (although not guaranteed) that only the account that was
+infected will be affected. This makes it easier to clean the viruses
+from the computer as a whole.</p>
+<p>You can apply this principle even if you are the only user of your
+computer. You might create separate accounts for work-related tasks
+and for playing games, for example.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="15-backups.html" class="btn btn-neutral float-right" title="Do your backups" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="05-updates.html" class="btn btn-neutral float-left" title="Use Windows Update and Ninite" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Computer Recycling
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+
+    <div class="footer">
+        &copy; Copyright 2015, Computer Recycling.
+
+    
+    <small><a href="_sources/10-accounts.txt"
+           rel="nofollow">Show Page Source</a></small>
+    </div>
+
+</body>
+</html>

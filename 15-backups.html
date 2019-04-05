@@ -1,0 +1,616 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Do your backups &mdash; Avoiding Viruses and Malware in Windows 7</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'2.5',
+              LANGUAGE:'',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: ''
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/local.css" type="text/css" />
+    <link rel="next" title="Be careful about downloads" href="20-downloads.html" />
+    <link rel="prev" title="Use standard accounts for daily use" href="10-accounts.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Avoiding Viruses and Spyware in Windows 7
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.5
+              </div>
+            
+          
+
+          
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Avoiding Viruses and Malware in Windows 7</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-updates.html">Use Windows Update and Ninite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-accounts.html">Use standard accounts for daily use</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Do your backups</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#enable-system-restore-and-previous-versions">Enable System Restore and Previous Versions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-local-backups-to-a-usb-flash-drive">Enable local backups to a USB flash drive</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#other-ways-to-use-windows-backup">Other ways to use Windows Backup</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-remote-backups-using-mozyhome">Enable remote backups using MozyHome</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="20-downloads.html">Be careful about downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="25-antivirus.html">Keep your antivirus up to date</a></li>
+<li class="toctree-l1"><a class="reference internal" href="30-support.html">Develop a support network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="35-other.html">Other strategies to protect yourself</a></li>
+<li class="toctree-l1"><a class="reference internal" href="40-aboutviruses.html">What are viruses and malware?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="45-credits.html">About this documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Avoiding Viruses and Spyware in Windows 7</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Do your backups</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="do-your-backups">
+<h1>Do your backups<a class="headerlink" href="#do-your-backups" title="Permalink to this headline">¶</a></h1>
+<p>Backups do not prevent viruses, but they can make it easier to recover
+if your computer is infected. Some viruses are very destructive, and
+will encrypt or delete your files so you can no longer access them.
+Having good backups prevents you from losing everything.</p>
+<p>We will look at three different kinds of backups in this document:</p>
+<ol class="arabic simple">
+<li><strong>System Restore</strong> and <strong>Previous Versions</strong>, which backs up recently changed
+files. This is easy to configure, costs no additional money, and
+makes it easy to recover older versions of your files. However,
+System Restore will not protect you against disasters like lightning
+strikes or your hard drive dying, and typically System Restore will
+not back up everything long term.</li>
+<li><strong>Windows Backup</strong>, which can put backups on a USB flash drive, a second
+hard drive on your computer, or a remote location. This takes a
+little work to configure, but once set up it will back up your files
+regularly. This system costs a little money because you have to
+purchase something to back your data onto. These backups will help
+against viruses and your primary hard drive dying, but are still
+vulnerable to lightning strikes or computer theft.</li>
+<li><strong>Remote backups</strong>, which put your backups on a hard drive far away.
+There are many remote backup solutions, but we will look at a
+service called MozyHome, which is free for personal use and
+reasonably easy to configure. Remote backups can protect you against
+computer theft and lightning strikes, but they have disadvantages
+of their own: remote backups use up bandwidth on your internet
+connection. In addition, you have to trust the remote location
+where your backups are being stored: transferring your personal
+files over the internet makes it easier for others to see their
+content.</li>
+</ol>
+<p>At the very least, we recommend enabling Previous Versions and Windows
+Backup to a local drive. You can then evaluate whether you feel
+comfortable storing backups to a remote service.</p>
+<p>You probably do not want to rely on remote backup services alone. Sometimes
+backup companies go out of business.</p>
+<p>Your personal files are the most important things to back up, because in
+general you can always re-download and reinstall programs and multimedia
+files from the Internet. Most people care about backing up the following
+things:</p>
+<ul class="simple">
+<li>Their documents (which tend to be small and easy to back up)</li>
+<li>Their pictures (which are bigger than documents, but can often fit on
+a single USB flash drive)</li>
+<li>Their music and movies (which require lots of storage to back up)</li>
+</ul>
+<div class="section" id="enable-system-restore-and-previous-versions">
+<h2>Enable System Restore and Previous Versions<a class="headerlink" href="#enable-system-restore-and-previous-versions" title="Permalink to this headline">¶</a></h2>
+<p>System Restore is usually enabled automatically, but you should check
+that it is enabled and working. Start by clicking the Start menu, going
+to Control Panel, and searching for &#8220;System Restore&#8221;, then clicking
+&#8220;System&#8221;:</p>
+<div class="figure align-center">
+<img alt="Search for System Restore" src="_images/00-controlpanel-sysrestore.png" />
+</div>
+<p>Next, click &#8220;System Protection&#8221;</p>
+<div class="figure align-center">
+<img alt="Select System protection" src="_images/05-system-protection.png" />
+</div>
+<p>Make sure that your hard drives (at least Drive C:) have protection set
+to &#8220;On&#8221;. If not, click &#8220;Configure&#8221; and select &#8220;Restore system settings
+and previous versions of files&#8221;</p>
+<div class="figure align-center">
+<img alt="Check that Drive C is enabled" src="_images/10-drivec-enabled.png" />
+</div>
+<p>Once System Protection has been activated, you should be able to go to
+individual files and see previous versions of the files that have been
+taken. This process usually takes a couple of days to start, but we can
+check that this functionality works by initiating a restore point. Start
+by going to My Documents and making a document file by clicking the
+&#8220;File&#8221; menu:</p>
+<div class="figure align-center">
+<img alt="Click File menu" src="_images/15-mydocs.png" />
+</div>
+<p>And then creating a new Text Document:</p>
+<div class="figure align-center">
+<img alt="Create new Text Document" src="_images/20-new-txt.png" />
+</div>
+<p>Give the document a name:</p>
+<div class="figure align-center">
+<img alt="Rename document" src="_images/25-sample-document.png" />
+</div>
+<p>Double click the document to open it, and then put some text in the
+document.</p>
+<div class="figure align-center">
+<img alt="Editing document, version 1" src="_images/30-notepad01.png" />
+</div>
+<p>Save the document. Now go to the System Restore tab above and click
+&#8220;Create&#8221;:</p>
+<div class="figure align-center">
+<img alt="Create a new system restore point" src="_images/35-create-restore-point.png" />
+</div>
+<p>Give the restore point a name (it doesn&#8217;t matter what):</p>
+<div class="figure align-center">
+<img alt="Name the restore point" src="_images/40-name-restorepoint.png" />
+</div>
+<p>Wait a while for the system restore to complete. You should see that the
+restore point was created successfully:</p>
+<div class="figure align-center">
+<img alt="Restore point success!" src="_images/45-sysrestore-successful.png" />
+</div>
+<p>Next, re-edit your document and add some text, then save the changed
+document.</p>
+<div class="figure align-center">
+<img alt="Changing the document" src="_images/50-notepad02.png" />
+</div>
+<p>Now go back to your document, right-click it, and select &#8220;Properties&#8221;:</p>
+<div class="figure align-center">
+<img alt="Select properties of document" src="_images/55-file-properties.png" />
+</div>
+<p>Click the &#8220;Previous Versions&#8221; tab.</p>
+<div class="figure align-center">
+<img alt="Previous Versions tab" src="_images/60-previous-versions-tab.png" />
+</div>
+<p>You should see there is a previous version of the document available.
+You can then restore this previous version. To avoid overwriting the
+current version, choose to make a &#8220;Copy&#8221; of the old version:</p>
+<div class="figure align-center">
+<img alt="Restore to a copy" src="_images/65-restore-prev-version.png" />
+</div>
+<p>You are best off making a new destination for the restored file. In this
+case we are making a &#8220;test restore&#8221; folder:</p>
+<div class="figure align-center">
+<img alt="Make test restore folder" src="_images/70-copy-location.png" />
+</div>
+<p>If you navigate to that folder you should see the old version of your
+file.</p>
+<div class="figure align-center">
+<img alt="The original document has been restored (to a different filename)." src="_images/30-notepad01.png" />
+</div>
+</div>
+<div class="section" id="enable-local-backups-to-a-usb-flash-drive">
+<h2>Enable local backups to a USB flash drive<a class="headerlink" href="#enable-local-backups-to-a-usb-flash-drive" title="Permalink to this headline">¶</a></h2>
+<p>Windows Backup is built into Windows 7. You can use it in a variety of
+ways, but we will focus on sending backups to a USB flash drive that is
+permanently attached to your computer.</p>
+<p>The first step is to purchase a new USB flash drive, and put it in your
+computer. This drive will be used to store the backups. Any drive you
+can purchase for $10 or more should have plenty of space to store your
+documents and some of your pictures. The flash drive should be empty;
+Windows Backup will be unhappy otherwise.</p>
+<p>To start Windows Backup, click the Start button, go to Control Panel,
+and search for &#8220;backup&#8221;. Click &#8220;Back up your computer&#8221;:</p>
+<div class="figure align-center">
+<img alt="Back up your computer" src="_images/00-controlpanel-backup.png" />
+</div>
+<p>Click &#8220;Set up Backup&#8221;</p>
+<div class="figure align-center">
+<img alt="Set up Backup" src="_images/05-set-up-backup.png" />
+</div>
+<p>Now choose the USB flash drive as a backup location (in this picture it
+is labelled &#8220;FLASHDRIVE&#8221;, but it may labelled as &#8220;Removable Drive&#8221; or
+something else):</p>
+<div class="figure align-center">
+<img alt="Select USB flash drive" src="_images/10-choose-flash-drive.png" />
+</div>
+<p>If you are backing up to a large device (such as a removable hard drive)
+then you can let Windows choose what to back up. Otherwise select &#8220;Let
+me choose&#8221;</p>
+<div class="figure align-center">
+<img alt="Let me choose what to back up" src="_images/15-let-me-choose.png" />
+</div>
+<p>Now double click &#8220;All users&#8221;. This should bring up a selection list.</p>
+<div class="figure align-center">
+<img alt="Click &quot;All Users&quot;" src="_images/20-change-settings.png" />
+</div>
+<p>The most important things to back up are your &#8220;Libraries&#8221;. If you are
+backing up to a USB flash drive, then you want to back up at least the
+&#8220;Documents&#8221; and &#8220;Pictures&#8221; libraries, assuming that is where you have
+stored your documents and pictures. If you have stored large files
+(movies, music) in your Documents folder then you will want to refine
+the selections further.</p>
+<div class="figure align-center">
+<img alt="Unselecting Music and Videos" src="_images/25-make-selections.png" />
+</div>
+<p>If you are backing up to a small device, you can unselect the Music and
+Videos libraries:</p>
+<div class="figure align-center">
+<img alt="Unselecting Music and Videos continued" src="_images/30-unselect-movies-music.png" />
+</div>
+<p>In general backing up more information is better than backing up less,
+but you also do not want to run out of space on your backup device. When
+you have made your selections, click &#8220;Next&#8221;.</p>
+<p>On the next screen you can edit the backup schedule. Ideally you would
+choose a schedule when your computer will already be turned on. Click
+&#8220;Change schedule&#8221; to choose an appropriate time. You should run the
+backup weekly or daily.</p>
+<div class="figure align-center">
+<img alt="Set backup schedule" src="_images/40-schedule-screen.png" />
+</div>
+<p>Click &#8220;Save settings and run backup&#8221;.</p>
+<div class="figure align-center">
+<img alt="Run initial backup" src="_images/45-backup-in-progress.png" />
+</div>
+<p>If you are lucky then the backup will complete successfully:</p>
+<div class="figure align-center">
+<img alt="Initial backup complete" src="_images/50-backup-done.png" />
+</div>
+<p>If your computer is off when the backup is scheduled, then the backup
+should run the next time you turn on your computer. Note that you will
+have to leave your USB drive plugged into your computer <em>permanently</em> in
+order for this backup scheme to work.</p>
+<div class="section" id="other-ways-to-use-windows-backup">
+<h3>Other ways to use Windows Backup<a class="headerlink" href="#other-ways-to-use-windows-backup" title="Permalink to this headline">¶</a></h3>
+<p>In addition to backing up files onto a USB drive, you can also use
+Windows Backup to:</p>
+<ul class="simple">
+<li>Back up files to an external hard drive.</li>
+<li>Back up files to a second internal hard drive you install in your
+computer.</li>
+<li>Back up files to a Windows share on a different computer. This might
+be possible if you have a second computer or a media server at home.</li>
+</ul>
+<p>Contact Computer Recycling if you are interested in exploring these
+possibilities.</p>
+</div>
+</div>
+<div class="section" id="enable-remote-backups-using-mozyhome">
+<h2>Enable remote backups using MozyHome<a class="headerlink" href="#enable-remote-backups-using-mozyhome" title="Permalink to this headline">¶</a></h2>
+<p>There are many remote backup services. In this handout we will set up
+one called MozyHome. This company allows you to back up 2GB of files on
+their servers for free, which should be sufficient to back up important
+documents. It is also installable using Ninite.</p>
+<p>Mozy also offers paid plans if you would like to store more data on
+their servers.</p>
+<p>Note that as soon as you store your backups on somebody else&#8217;s servers,
+you are trusting that this company will not peek at your data. Many
+backup companies promise that they do not look at your data, but as an
+end user you have no good way to confirm this.</p>
+<p>Note that Mozy (like other companies offering &#8220;freemium&#8221; services) makes
+it tricky to install their free offerings. Their goal is to direct you
+towards their paid products. Thus you have to jump through some hoops to
+install their product. (There is nothing preventing you from paying them
+for their service, of course!)</p>
+<p>To get started, you first need to create a free MozyHome account. To do
+this, visit <a class="reference external" href="https://mozy.com/free">https://mozy.com/free</a> :</p>
+<div class="figure align-center">
+<img alt="Mozy Free homepage" src="_images/00-mozyfree-webpage.png" />
+</div>
+<p>Note that Mozy will make it difficult to create a free account unless
+you use the <a class="reference external" href="https://mozy.com/free">https://mozy.com/free</a> page. Clicking the &#8220;Sign up&#8221; link will
+direct you to create a paid account, so don&#8217;t do that. Instead, click
+&#8220;Get Started&#8221;.</p>
+<p>You are first prompted to enter your country of residence:</p>
+<div class="figure align-center">
+<img alt="Choose your country" src="_images/03-choose-location.png" />
+</div>
+<p>Enter your email address and choose a password.</p>
+<div class="figure align-center">
+<img alt="Choose a password" src="_images/06-signup-form.png" />
+</div>
+<p>You should then see a prompt to check your email:</p>
+<div class="figure align-center">
+<img alt="Check your email" src="_images/09-post-signup.png" />
+</div>
+<p>When you do so, you should see an activation link from Mozy. Often you
+want to be careful about clicking links in email (see the
+&#8220;<a class="reference internal" href="20-downloads.html#downloads-email-links"><em>Be careful about links in email</em></a>&#8221; section below) but in this case you are
+expecting a registration email:</p>
+<div class="figure align-center">
+<img alt="Registration email link" src="_images/12-confirm-link.png" />
+</div>
+<p>After clicking the link you should see a confirmation that your account
+has been created. You do not need to do much with this account, but you
+may want to look in the &#8220;Manage Account&#8221; section and unsubscribe
+yourself from Mozy emails.</p>
+<p>On this page you will also see a link that you can use to download the
+Mozy client software. You can click that link and install Mozy if you
+want, but there are a bunch of steps and you have to be careful about
+not choosing a Mozy paid plan by accident. Instead, we recommend going
+to Ninite (<a class="reference external" href="http://ninite.com">http://ninite.com</a>) and using that to install the Mozy client
+instead:</p>
+<div class="figure align-center">
+<img alt="Install Mozy via Ninite" src="_images/17-ninite-mozy.png" />
+</div>
+<p>For more detailed instructions on using Ninite to install software, see
+the <a class="reference internal" href="20-downloads.html#downloads-ninite"><em>Use Ninite for common downloads</em></a> section.</p>
+<p>Once you have installed the software, it is time to set up a backup. Log
+in with the email account and password you created:</p>
+<div class="figure align-center">
+<img alt="Sign into MozyHome client" src="_images/33-sign-in.png" />
+</div>
+<p>The next screen lists some files Mozy is offering to back up, and states
+that Mozy will use &#8220;standard encryption&#8221; to back up your files. You can
+use standard encryption if you want, but that means Mozy (and
+potentially other entities on the Internet, such as government spy
+agencies) can see your documents more easily.</p>
+<div class="figure align-center">
+<img alt="Change encryption link" src="_images/36-change-encryption.png" />
+</div>
+<p>If you click &#8220;Change encryption&#8221; then Mozy will give you the option of
+choosing your own password to protect your backups. If you use your own
+password then Mozy promises that they will not be able to see the
+contents of your backups, even under force of law. It also means that
+you MUST put this password in a safe place. Putting the password on a
+computer file is not sufficient, because your hard drive may be dead (or
+your computer stolen!) when it is time to restore your backups.
+According to Mozy, without this password you will not be able to restore
+your backups when you need them.</p>
+<p>If you value convenience over privacy, then you can leave the encryption
+as-is. Otherwise, click &#8220;Change Encryption&#8221;. You will see a warning
+dialog:</p>
+<div class="figure align-center">
+<img alt="Confirm key management" src="_images/39-confirm-key-management.png" />
+</div>
+<p>You will be prompted to choose a personal key (we have obscured the key
+we typed, and you should keep your key a secret too!). The &#8220;Key&#8221; is just
+a password you choose. You want to choose a strong password, and you
+want to record it someplace where you can get it after your computer has
+broken.</p>
+<div class="figure align-center">
+<img alt="Choose a Key" src="_images/39-personal-key.png" />
+</div>
+<p>You will have the option to save your personal key (password) to a file.</p>
+<div class="figure align-center">
+<img alt="Save Key" src="_images/36-save-key.png" />
+</div>
+<p>It might be a good idea to store this key on a secure USB flash drive or
+in a password manager like KeepPass (See <a class="reference internal" href="35-other.html#other-keeppass"><em>Use a password manager</em></a> for
+more information.)</p>
+<p>Next Mozy will tell you that setup is complete, but you may want to
+click the Settings button to change what is being backed up:</p>
+<div class="figure align-center">
+<img alt="Mozy Status" src="_images/45-mozy-status.png" />
+</div>
+<p>Go to &#8220;Backup Sets&#8221;, and unselect &#8220;Music&#8221; and &#8220;Videos&#8221; if they are
+large:</p>
+<div class="figure align-center">
+<img alt="Mozy backup selections" src="_images/48-mozy-settings.png" />
+</div>
+<p>You will then have the option of choosing what files to back up. You
+probably want to back up your Internet Favorites and Documents first. If
+you have space, you can then back up photos. You probably will not have
+enough storage space to back up music or video files to Mozy.</p>
+<p>Now you can let the Mozy service do its first backup by clicking &#8220;Start
+Backup&#8221; on the status screen:</p>
+<div class="figure align-center">
+<img alt="Mozy status screen" src="_images/45-mozy-status.png" />
+</div>
+<p>By default Mozy will back up your files twice a day. You can change this
+frequency. You will also want to be careful about how much bandwidth the
+service is using to back up your files.</p>
+<p>There is a Mozy icon in your system tray in the bottom-right corner of
+your screen. You can click it to see your backup status or change
+settings:</p>
+<div class="figure align-center">
+<img alt="Mozy system tray icon" src="_images/42-mozy-icon.png" />
+</div>
+<p>You can also open the Mozy client by clicking the Start menu and
+searching for &#8220;mozy&#8221;</p>
+<div class="figure align-center">
+<img alt="Start menu search for Mozy" src="_images/51-mozyhome-settings.png" />
+</div>
+<p>To restore files from Mozy, open the program and then browse to the
+&#8220;Restore&#8221; tab:</p>
+<div class="figure align-center">
+<img alt="Mozy Restore tab" src="_images/54-mozy-restoretab.png" />
+</div>
+<p>Mozy will keep up to thirty days worth of changes to your files, so if
+you accidentally delete a file (or it is infected with a virus like
+Cryptolocker) then you can restore it.</p>
+<p>You probably do not want to overwrite your old files. Restore your files
+to a different location, and then get rid of the damaged files once you
+are sure the restored ones are adequate.</p>
+<p>Choose the files you want to restore, select &#8220;Rename file if file
+exists&#8221;, and then choose to &#8220;Restore Files&#8221;</p>
+<div class="figure align-center">
+<img alt="Mozy restore files" src="_images/57-restore-dialog.png" />
+</div>
+<p>For more information on using Mozy, use the help option in the program:</p>
+<div class="figure align-center">
+<img alt="Mozy help options" src="_images/60-helplinks.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="20-downloads.html" class="btn btn-neutral float-right" title="Be careful about downloads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="10-accounts.html" class="btn btn-neutral float-left" title="Use standard accounts for daily use" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Computer Recycling
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+
+    <div class="footer">
+        &copy; Copyright 2015, Computer Recycling.
+
+    
+    <small><a href="_sources/15-backups.txt"
+           rel="nofollow">Show Page Source</a></small>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Use Windows Update and Ninite &mdash; Avoiding Viruses and Malware in Windows 7</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'2.5',
+              LANGUAGE:'',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: ''
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/local.css" type="text/css" />
+    <link rel="next" title="Use standard accounts for daily use" href="10-accounts.html" />
+    <link rel="prev" title="Avoiding Viruses and Malware in Windows 7" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Avoiding Viruses and Spyware in Windows 7
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.5
+              </div>
+            
+          
+
+          
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Avoiding Viruses and Malware in Windows 7</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Use Windows Update and Ninite</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#microsoft-updates-for-windows-and-office">Microsoft Updates for Windows and Office</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#non-microsoft-updates-with-ninite">Non-Microsoft updates with Ninite</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="10-accounts.html">Use standard accounts for daily use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-backups.html">Do your backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="20-downloads.html">Be careful about downloads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="25-antivirus.html">Keep your antivirus up to date</a></li>
+<li class="toctree-l1"><a class="reference internal" href="30-support.html">Develop a support network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="35-other.html">Other strategies to protect yourself</a></li>
+<li class="toctree-l1"><a class="reference internal" href="40-aboutviruses.html">What are viruses and malware?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="45-credits.html">About this documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Avoiding Viruses and Spyware in Windows 7</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Use Windows Update and Ninite</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="use-windows-update-and-ninite">
+<h1>Use Windows Update and Ninite<a class="headerlink" href="#use-windows-update-and-ninite" title="Permalink to this headline">¶</a></h1>
+<p>Software manufacturers update their programs all the time. Some of these
+updates add features, but others are <strong>security updates</strong> released to
+fix problems with the programs. People who write computer viruses
+exploit these problems to spread their malware. Sometimes these
+problems are so serious that simply visiting a malicious website can
+infect your computer behind your back! So it is important to keep up
+with security updates.</p>
+<p>There are two kinds of security updates you should keep up with:</p>
+<ul class="simple">
+<li>Security updates for Windows and Microsoft Office, which are released
+by Microsoft</li>
+<li>Security updates for non-Microsoft software, such as Adobe Reader,
+Mozilla Firefox, or antivirus programs.</li>
+</ul>
+<p>Let&#8217;s look at each of these in turn.</p>
+<div class="section" id="microsoft-updates-for-windows-and-office">
+<h2>Microsoft Updates for Windows and Office<a class="headerlink" href="#microsoft-updates-for-windows-and-office" title="Permalink to this headline">¶</a></h2>
+<p>Microsoft releases security updates for its products using <strong>Microsoft
+Update</strong>. If you purchase a Windows computer from Computer Recycling
+then this should be set up already, but you can confirm this for
+yourself easily.</p>
+<p>Press the Start button in the lower-left corner of your screen and
+choose <strong>Control Panel</strong>:</p>
+<div class="figure align-center">
+<img alt="Opening control panel" src="_images/00-ctrlpanel.png" />
+</div>
+<p>In the search bar, type &#8220;Windows update&#8221;, and select &#8220;Turn automatic
+updating on or off&#8221;:</p>
+<div class="figure align-center">
+<img alt="Turn automatic updating on or off" src="_images/05-autoupdate-option.png" />
+</div>
+<p>In the &#8220;Important updates&#8221; dropdown, choose &#8220;Download updates but let me
+choose whether to install them&#8221;.</p>
+<p>If you leave your computer on all the
+time you can choose &#8220;Install updates automatically&#8221;. There are
+situations in which other options are appropriate, but you probably
+should not choose them. If in doubt, choose &#8220;Download updates but let me
+choose whether to install them.&#8221;</p>
+<div class="figure align-center">
+<img alt="Selecting download updates but let me choose whether to install them, and selecting recommended updates" src="_images/10-download-update-option.png" />
+</div>
+<p>Click &#8220;OK&#8221;, and put in the password for an administrator account. (For
+more information about administrator accounts, see
+<a class="reference internal" href="10-accounts.html#standard-accounts"><em>Use standard accounts for daily use</em></a> .)</p>
+<div class="figure align-center">
+<img alt="Enter admin credentials" src="_images/15-uac.png" />
+</div>
+<p>Now your computer will download Microsoft updates. Update notifications
+will show up in the system tray at the bottom right hand corner of your
+screen:</p>
+<div class="figure align-center">
+<img alt="System tray notification for Microsoft updates" src="_images/20-updates-available.png" />
+</div>
+<p>And you should see the yellow exclamation mark shield when you try to
+shut down your computer:</p>
+<div class="figure align-center">
+<img alt="Shut down and install updates icon" src="_images/25-start-menu-updates.png" />
+</div>
+<p>It is easiest to do updates by selecting the &#8220;Install updates and shut
+down&#8221; option when you are done using your computer.</p>
+<p>New updates are released at least once a month (generally on the second
+Tuesday of the month, but sometimes in between as well). If it has been
+a long time since you have seen update notifications, you can check for
+updates manually. Go to Control Panel, search for &#8220;windows update&#8221; and
+select &#8220;Check for Updates&#8221;</p>
+<div class="figure align-center">
+<img alt="Check for updates option" src="_images/30-check-for-updates.png" />
+</div>
+<p>Your computer will connect to the Internet and indicate whether there
+are any updates available. You can then install the updates if you wish.</p>
+<div class="figure align-center">
+<img alt="Updates are available" src="_images/35-download-install-updates.png" />
+</div>
+</div>
+<div class="section" id="non-microsoft-updates-with-ninite">
+<span id="updates-ninite"></span><h2>Non-Microsoft updates with Ninite<a class="headerlink" href="#non-microsoft-updates-with-ninite" title="Permalink to this headline">¶</a></h2>
+<p>It can be even more important to keep up with non-Microsoft updates than
+Microsoft ones, but in the past this was quite a hassle. You had to
+visit many different websites for your software, download updated
+versions of your programs, and avoid inadvertently installing toolbars
+and other junk that was bundled with the program.</p>
+<p>Fortunately, things are easier now, for two reasons:</p>
+<ul class="simple">
+<li>Some software (such as Adobe Flash Player, Google Chrome, and Mozilla
+Firefox) attempts to keep itself updated.</li>
+<li>There is a software service called <a class="reference external" href="http://ninite.com">Ninite</a>,
+which is free (and legal!) for home users. Many download services
+are sketchy (see <a class="reference internal" href="20-downloads.html#downloads-mirror-websites"><em>Be careful where you download software</em></a> for more
+information about this), but as of this writing we enthusiastically
+recommend Ninite.</li>
+</ul>
+<p>There is not much you need to do to take care of programs that update
+themselves, so long as those programs are trustworthy. Using Ninite is
+also not difficult, but there are a few steps involved.</p>
+<p>If you have purchased a Windows 7 computer from Computer Recycling
+recently,you might already have a Ninite installer on your desktop:</p>
+<div class="figure align-center">
+<img alt="Ninite icon on desktop" src="_images/00-ninite-desktop.png" />
+</div>
+<p>This installer will keep some of the programs we have installed for you
+(Firefox, LibreOffice, VLC and a few others) up to date. To use it,
+right-click the big blue N and select &#8220;Run as administrator&#8221;. Then type
+your administrator password and the updater will start working.</p>
+<div class="figure align-center">
+<img alt="Run Ninite as administrator" src="_images/05-ninite-run-as-admin.png" />
+</div>
+<p>Ninite will then check for updates to the software registered with it,
+and update software that is out of date.</p>
+<div class="figure align-center">
+<img alt="Ninite running without details" src="_images/10-run-ninite.png" />
+</div>
+<p>You can click &#8220;Show details&#8221; to see what the installer is doing.</p>
+<div class="figure align-center">
+<img alt="Show Ninite details" src="_images/15-ninite-detail.png" />
+</div>
+<p>The only downside to this is that some software updates (in particular
+LibreOffice) are large and can use a lot of bandwidth.</p>
+<p>If your computer does not have a Ninite installer you can create one by
+visiting <a class="reference external" href="https://ninite.com">https://ninite.com</a> and creating one. See the
+<a class="reference internal" href="20-downloads.html#downloads-ninite"><em>Use Ninite for common downloads</em></a> section for detailed instructions on doing this.</p>
+<p>The home version of Ninite does not run by itself, so you should go
+through this process at least once a month to keep your software update.
+The company sells a version of their product for $10 USD a year that
+will remind you when updates are available, but there is no obligation
+to purchase this product.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="10-accounts.html" class="btn btn-neutral float-right" title="Use standard accounts for daily use" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Avoiding Viruses and Malware in Windows 7" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Computer Recycling
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+
+    <div class="footer">
+        &copy; Copyright 2015, Computer Recycling.
+
+    
+    <small><a href="_sources/05-updates.txt"
+           rel="nofollow">Show Page Source</a></small>
+    </div>
+
+</body>
+</html>
