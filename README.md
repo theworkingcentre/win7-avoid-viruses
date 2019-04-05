@@ -23,7 +23,7 @@ using Python 2.7 . To build:
 The pdf target does not work well at all.
 
 The documentation is mirrored here:
-<https://github.io/workingcentre/win7-avoid-viruses> . 
+<https://theworkingcentre.github.io/win7-avoid-viruses> . 
 
 (The mirror uses a
 `gh-pages` branch with the files manually checked in. Sorry.
