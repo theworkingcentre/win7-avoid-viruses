@@ -21,3 +21,7 @@ using Python 2.7 . To build:
     make html 
 
 The pdf target does not work well at all.
+
+The documentation is mirrored here:
+<https://github.io/workingcentre/win7-avoid-viruses> . (It uses a
+`gh-pages` branch with the files manually checked in. Sorry.)
