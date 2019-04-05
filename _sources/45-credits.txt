@@ -34,7 +34,7 @@ http://creativecommons.org/licenses/by-sa/4.0/
 
 Sometimes we change this document and improve it. 
 You can find the latest version of this documentation here:
-http://cr-handouts.dyn.theworkingcentre.org
+https://theworkingcentre.github.io/win7-avoid-viruses/
 
 If you would like to modify this documentation you can find the
 sources here: 
